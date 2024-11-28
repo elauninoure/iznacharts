@@ -1,0 +1,456 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[955], {
+    6393: function(t, e, n) {
+        let a = n(7294)
+          , s = a.forwardRef(function({title: t, titleId: e, ...n}, s) {
+            return a.createElement("svg", Object.assign({
+                xmlns: "http://www.w3.org/2000/svg",
+                fill: "none",
+                viewBox: "0 0 24 24",
+                strokeWidth: 1.5,
+                stroke: "currentColor",
+                "aria-hidden": "true",
+                ref: s,
+                "aria-labelledby": e
+            }, n), t ? a.createElement("title", {
+                id: e
+            }, t) : null, a.createElement("path", {
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                d: "M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+            }))
+        });
+        t.exports = s
+    },
+    5256: function(t, e, n) {
+        let a = n(7294)
+          , s = a.forwardRef(function({title: t, titleId: e, ...n}, s) {
+            return a.createElement("svg", Object.assign({
+                xmlns: "http://www.w3.org/2000/svg",
+                viewBox: "0 0 24 24",
+                fill: "currentColor",
+                "aria-hidden": "true",
+                ref: s,
+                "aria-labelledby": e
+            }, n), t ? a.createElement("title", {
+                id: e
+            }, t) : null, a.createElement("path", {
+                fillRule: "evenodd",
+                d: "M11.47 2.47a.75.75 0 011.06 0l7.5 7.5a.75.75 0 11-1.06 1.06l-6.22-6.22V21a.75.75 0 01-1.5 0V4.81l-6.22 6.22a.75.75 0 11-1.06-1.06l7.5-7.5z",
+                clipRule: "evenodd"
+            }))
+        });
+        t.exports = s
+    },
+    1019: function(t, e, n) {
+        (window.__NEXT_P = window.__NEXT_P || []).push(["/spotify-follower", function() {
+            return n(1203)
+        }
+        ])
+    },
+    3056: function(t, e, n) {
+        "use strict";
+        n.d(e, {
+            H: function() {
+                return s
+            }
+        });
+        var a = n(5893);
+        function s() {
+            return (0,
+            a.jsx)("svg", {
+                xmlns: "http://www.w3.org/2000/svg",
+                xmlnsXlink: "http://www.w3.org/1999/xlink",
+                style: {
+                    margin: "auto",
+                    display: "block",
+                    shapeRendering: "auto"
+                },
+                width: "100px",
+                height: "100px",
+                viewBox: "0 0 100 100",
+                preserveAspectRatio: "xMidYMid",
+                children: (0,
+                a.jsx)("path", {
+                    d: "M29 50A21 21 0 0 0 71 50A21 22.7 0 0 1 29 50",
+                    fill: "#74007a",
+                    stroke: "none",
+                    children: (0,
+                    a.jsx)("animateTransform", {
+                        attributeName: "transform",
+                        type: "rotate",
+                        dur: "1s",
+                        repeatCount: "indefinite",
+                        keyTimes: "0;1",
+                        values: "0 50 50.85;360 50 50.85"
+                    })
+                })
+            })
+        }
+    },
+    8526: function(t, e, n) {
+        "use strict";
+        n.d(e, {
+            mg: function() {
+                return l
+            },
+            pw: function() {
+                return o
+            }
+        });
+        var a = n(6154)
+          , s = n(9734);
+        let i = async t => await a.Z.get(t).then(t => t.data);
+        function o() {
+            let {data: t, error: e, isLoading: n} = (0,
+            s.ZP)("/api/spotify-streams", i)
+              , a = []
+              , o = []
+              , l = 0
+              , r = [{
+                name: "BTS",
+                total: 0,
+                totalGains: 0,
+                tracks: [],
+                image: "https://i.scdn.co/image/ab6761610000e5eb5704a64f34fe29ff73ab56bb"
+            }, {
+                name: "V",
+                total: 0,
+                tracks: [],
+                totalGains: 0,
+                image: "https://i.scdn.co/image/ab6761610000e5ebd5ea2417972607cdcf73364d"
+            }, {
+                name: "Jimin",
+                total: 0,
+                tracks: [],
+                totalGains: 0,
+                image: "https://i.scdn.co/image/ab6761610000e5eb59f8cfc8e71dcaf8c6ec4bde"
+            }, {
+                name: "Jung Kook",
+                total: 0,
+                totalGains: 0,
+                tracks: [],
+                image: "https://i.scdn.co/image/ab6761610000e5ebbda88c5ee506aa67c8835d30"
+            }, {
+                name: "RM",
+                total: 0,
+                totalGains: 0,
+                tracks: [],
+                image: "https://i.scdn.co/image/ab6761610000e5eb3b8f6208d84e28f63841e43c"
+            }, {
+                name: "j-hope",
+                total: 0,
+                tracks: [],
+                totalGains: 0,
+                image: "https://i.scdn.co/image/ab6761610000e5ebeb746063d1aafa2817ea11b5"
+            }, {
+                name: "JIN",
+                total: 0,
+                totalGains: 0,
+                tracks: [],
+                image: "https://i.scdn.co/image/ab6761610000e5ebca4f165e62fbf5ab5a3750ba"
+            }, {
+                name: "Agust D / SUGA",
+                total: 0,
+                totalGains: 0,
+                tracks: [],
+                image: "https://i.scdn.co/image/ab6761610000e5eb191d43dca6f2f5a126e43e4b"
+            }];
+            return t && (t.albums.map(t => a.push(t)),
+            t.singles.map(t => a.push(t)),
+            t.solos.map(t => a.push(t)),
+            o = function(t) {
+                let e = [];
+                return t.albums.map(t => {
+                    t.tracks.map(t => e.push(t))
+                }
+                ),
+                t.singles.map(t => {
+                    t.tracks.map(t => e.push(t))
+                }
+                ),
+                t.solos.map(t => {
+                    t.tracks.map(t => e.push(t))
+                }
+                ),
+                e
+            }(t),
+            o = [...Array.from(new Map(o.map(t => [t.playcount || t.name, t])).values())],
+            a.sort( (t, e) => e.gainInStreams - t.gainInStreams),
+            o.sort( (t, e) => e.gainInStreams - t.gainInStreams),
+            o.map(t => {
+                r.map(e => {
+                    "Agust D / SUGA" === e.name ? t.artist.filter(t => "Agust D" === t || "SUGA" === t).length && (e.tracks.push(t),
+                    e.total += t.playcount,
+                    e.totalGains += t.gainInStreams) : t.artist.includes(e.name) && (e.tracks.push(t),
+                    e.total += t.playcount,
+                    e.totalGains += t.gainInStreams)
+                }
+                ),
+                l += t.gainInStreams
+            }
+            ),
+            r.sort( (t, e) => e.totalGains - t.totalGains)),
+            {
+                data: t,
+                error: e,
+                isLoading: n,
+                sortedTracks: o,
+                top10Album: a.slice(0, 10),
+                top10Tracks: o.slice(0, 10),
+                sortedAlbums: a,
+                artists: r,
+                totalDailyStreams: l
+            }
+        }
+        function l() {
+            let {data: t, isLoading: e} = (0,
+            s.ZP)("/api/spotify-profiles", i);
+            return t && t.results.sort( (t, e) => e.gainInMonthlyListeners - t.gainInMonthlyListeners),
+            {
+                profileLoading: e,
+                profilesData: t
+            }
+        }
+    },
+    1203: function(t, e, n) {
+        "use strict";
+        n.r(e),
+        n.d(e, {
+            default: function() {
+                return p
+            }
+        });
+        var a = n(5893)
+          , s = n(4763)
+          , i = n(6393)
+          , o = n(5256)
+          , l = n(4184)
+          , r = n.n(l)
+          , c = n(381)
+          , d = n.n(c)
+          , m = n(7294)
+          , g = n(8526)
+          , h = n(9310)
+          , u = n(3056);
+        function x() {
+            let {profilesData: t, profileLoading: e} = (0,
+            g.mg)();
+            return (0,
+            a.jsxs)("section", {
+                className: "flex flex-col items-center",
+                children: [e && (0,
+                a.jsx)(u.H, {}), !e && (0,
+                a.jsxs)("div", {
+                    children: [(0,
+                    a.jsxs)("div", {
+                        className: "flex flex-col items-center gap-2",
+                        children: [(0,
+                        a.jsx)("img", {
+                            src: "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png",
+                            className: "h-12",
+                            alt: ""
+                        }), (0,
+                        a.jsx)("div", {
+                            className: "text-white",
+                            children: "Followers / monthly listeners data"
+                        }), (0,
+                        a.jsxs)("div", {
+                            className: "text-white font-bold",
+                            children: ["Last updated:", " ", d()(new Date(t.timestamps)).format("YYYY-MM-DD")]
+                        })]
+                    }), (0,
+                    a.jsx)("div", {
+                        className: "grid grid-cols-1 md:grid-cols-3 gap-4 py-5",
+                        children: t.results.map(t => (0,
+                        a.jsx)(f, {
+                            data: t
+                        }, t.uri))
+                    })]
+                })]
+            })
+        }
+        function f(t) {
+            let {data: e} = t
+              , n = (0,
+            m.useRef)(null);
+            return (0,
+            a.jsxs)("div", {
+                className: "relative",
+                children: [(0,
+                a.jsxs)("div", {
+                    className: "rounded-md bg-gray-400/30 border border-gray-500/75 p-4",
+                    ref: n,
+                    children: [(0,
+                    a.jsx)("img", {
+                        src: e.image,
+                        className: "h-12 rounded-md",
+                        alt: ""
+                    }), (0,
+                    a.jsx)("div", {
+                        className: "text-white text-lg font-bold py-3",
+                        children: e.name
+                    }), (0,
+                    a.jsxs)("div", {
+                        className: "grid grid-cols-3 py-2 gap-4 divide-x divide-gray-100/20",
+                        children: [(0,
+                        a.jsxs)("div", {
+                            className: "flex flex-col items-center",
+                            children: [(0,
+                            a.jsx)("div", {
+                                className: "text-xs truncate text-white/50",
+                                children: "Monthly listeners"
+                            }), (0,
+                            a.jsx)("div", {
+                                className: "text-white font-bold",
+                                children: e.monthlyListeners.toLocaleString()
+                            }), (0,
+                            a.jsxs)("div", {
+                                className: r()("flex items-center text-xs font-bold", {
+                                    "text-red-400": e.gainInMonthlyListeners < 0,
+                                    "text-green-400": e.gainInMonthlyListeners > 0
+                                }),
+                                children: [(0,
+                                a.jsx)(o, {
+                                    className: r()("text-xs h-3 font-bold", {
+                                        "rotate-180": e.gainInMonthlyListeners < 0
+                                    })
+                                }), Math.abs(e.gainInMonthlyListeners).toLocaleString()]
+                            })]
+                        }), (0,
+                        a.jsxs)("div", {
+                            className: "flex flex-col items-center",
+                            children: [(0,
+                            a.jsx)("div", {
+                                className: "text-xs truncate text-white/50",
+                                children: "Global position"
+                            }), (0,
+                            a.jsx)("div", {
+                                className: "text-white font-bold",
+                                children: e.monthlyPosition ? "#".concat(e.monthlyPosition) : "N/A"
+                            }), (0,
+                            a.jsxs)("div", {
+                                className: r()("flex items-center text-xs font-bold", {
+                                    "text-red-400": e.gainInPosition < 0,
+                                    "text-green-400": e.gainInPosition > 0,
+                                    "text-blue-400": 0 === e.gainInPosition
+                                }),
+                                children: [(0,
+                                a.jsx)(o, {
+                                    className: r()("text-xs h-3 font-bold", {
+                                        "rotate-180": e.gainInPosition < 0,
+                                        hidden: !e.gainInPosition || 0 === e.gainInPosition
+                                    })
+                                }), 0 === e.gainInPosition ? "-" : Math.abs(e.gainInPosition).toLocaleString()]
+                            })]
+                        }), (0,
+                        a.jsxs)("div", {
+                            className: "flex flex-col items-center",
+                            children: [(0,
+                            a.jsx)("div", {
+                                className: "text-xs truncate text-white/50",
+                                children: "Followers"
+                            }), (0,
+                            a.jsx)("div", {
+                                className: "text-white font-bold",
+                                children: e.followers.toLocaleString()
+                            }), (0,
+                            a.jsxs)("div", {
+                                className: r()("flex items-center text-xs font-bold", {
+                                    "text-red-400": e.gainInFollowers < 0,
+                                    "text-green-400": e.gainInFollowers > 0,
+                                    "text-blue-400": 0 === e.gainInFollowers
+                                }),
+                                children: [(0,
+                                a.jsx)(o, {
+                                    className: r()("text-xs h-3 font-bold", {
+                                        "rotate-180": e.gainInFollowers < 0,
+                                        hidden: 0 === e.gainInFollowers
+                                    })
+                                }), 0 === e.gainInFollowers ? "-" : Math.abs(e.gainInFollowers).toLocaleString()]
+                            })]
+                        })]
+                    }), e.monthlyListeners === e.monthlyPeak && (0,
+                    a.jsx)("div", {
+                        className: "absolute top-0 -translate-y-1/2 text-white right-0 text-xs font-bold mr-4 bg-blue-500 rounded-full px-2",
+                        children: "NEW PEAK ML"
+                    })]
+                }), (0,
+                a.jsx)("div", {
+                    onClick: () => (0,
+                    h.G)("Spotify Profiles", "".concat(e.name, " — Spotify \n\nMonthly Listeners: ").concat(e.monthlyListeners.toLocaleString(), " (").concat(e.gainInMonthlyListeners > 0 ? "+".concat(e.gainInMonthlyListeners.toLocaleString()) : e.gainInMonthlyListeners.toLocaleString(), ") ").concat(e.monthlyListeners === e.monthlyPeak ? "*New Peak*" : "", "\nFollowers: ").concat(e.followers.toLocaleString(), " (").concat(e.gainInFollowers > 0 ? "+".concat(e.gainInFollowers.toLocaleString()) : e.gainInFollowers.toLocaleString(), ") \n\n https://b-cd.net/spotify-follower"), /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)),
+                    className: "cursor-pointer absolute top-0 right-0 text-white m-2",
+                    children: (0,
+                    a.jsx)(i, {
+                        className: "h-5"
+                    })
+                })]
+            })
+        }
+        function p() {
+            return (0,
+            a.jsx)(s.Z, {
+                preview: "https://bcd-chart.s3.eu-north-1.amazonaws.com/img/spotify+thumbnail+2.png",
+                description: "Tracking BTS Spotify monthly listeners and followers",
+                title: "BTS Spotify ML / Followers",
+                children: (0,
+                a.jsx)(x, {})
+            })
+        }
+    },
+    9310: function(t, e, n) {
+        "use strict";
+        n.d(e, {
+            G: function() {
+                return i
+            }
+        });
+        var a = n(6293)
+          , s = n(6501);
+        async function i(t, e, n, i) {
+            (null == i ? void 0 : i.current) !== null && ((null == i ? void 0 : i.current) && n ? (0,
+            a.SE)(i.current, {
+                cacheBust: !0,
+                backgroundColor: "rgb(17 24 39);"
+            }).then(async n => {
+                let a = {
+                    files: [new File([null != n ? n : ""],"image.png",{
+                        type: null == n ? void 0 : n.type
+                    })],
+                    title: t,
+                    text: e
+                };
+                await navigator.share(a)
+            }
+            ).catch(t => {
+                console.log(t)
+            }
+            ) : (null == i ? void 0 : i.current) ? (0,
+            a.YM)(i.current, {
+                cacheBust: !0,
+                backgroundColor: "rgb(17 24 39);"
+            }).then(t => {
+                let n = document.createElement("a");
+                n.download = "image.png",
+                n.href = t,
+                n.click(),
+                navigator.clipboard.writeText(e),
+                s.ZP.success("Share text copied to clipboard!")
+            }
+            ).catch(t => {
+                console.log(t)
+            }
+            ) : !i && n ? await navigator.share({
+                title: t,
+                text: e
+            }) : (navigator.clipboard.writeText(e),
+            s.ZP.success("Share text copied to clipboard!")))
+        }
+    }
+}, function(t) {
+    t.O(0, [948, 885, 870, 894, 154, 734, 293, 763, 774, 888, 179], function() {
+        return t(t.s = 1019)
+    }),
+    _N_E = t.O()
+}
+]);
+  
